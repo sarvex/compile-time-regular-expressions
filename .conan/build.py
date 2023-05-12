@@ -9,7 +9,7 @@ def get_travis_branch():
 
 
 def get_reference():
-    return "CTRE/{}".format(get_travis_branch())
+    return f"CTRE/{get_travis_branch()}"
 
 
 if __name__ == "__main__":
